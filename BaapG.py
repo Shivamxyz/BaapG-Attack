@@ -233,7 +233,7 @@ def prepend_line(file_name, line):
 
 
 def getApi(target):
-    apiUrl = "https://raw.githubusercontent.com/T-Dynamos/BaapG-Attack/main/apiData.baap"
+    apiUrl = "https://raw.githubusercontent.com/Shivamxyz/BaapG-Attack/main/apiData.baap"
     try:
         a = requests.get(apiUrl)
         open('dataBa.py', 'wb').write(a.content)
