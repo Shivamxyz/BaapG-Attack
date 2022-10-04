@@ -210,14 +210,14 @@ lic = """
 """
 text = ''
 logo = f"""{Style.BRIGHT+text}
-{R}╭━━╮╱╱╱╱╱╱╱╱╱╭━━━╮ ╭━━━╮╭╮╱╭╮╱╱╱╱╱╱╭╮
-{R}┃╭╮┃╱╱╱╱╱╱╱╱╱┃╭━╮┃ ┃╭━╮┣╯╰┳╯╰╮╱╱╱╱╱┃┃
-{W}┃╰╯╰┳━━┳━━┳━━┫┃╱╰╯ ┃┃╱┃┣╮╭┻╮╭╋━━┳━━┫┃╭╮
-{W}┃╭━╮┃╭╮┃╭╮┃╭╮┃┃╭━╮ ┃╰━╯┃┃┃╱┃┃┃╭╮┃╭━┫╰╯╯
-{G}┃╰━╯┃╭╮┃╭╮┃╰╯┃╰┻━┃ ┃╭━╮┃┃╰╮┃╰┫╭╮┃╰━┫╭╮╮
-{G}╰━━━┻╯╰┻╯╰┫╭━┻━━━╯ ╰╯╱╰╯╰━╯╰━┻╯╰┻━━┻╯╰╯
-╱╱╱╱╱╱╱╱╱╱┃┃ {C}Author : {Y}BaapG Krishna {Y}RajputBhai
-╱╱╱╱╱╱╱╱╱╱╰╯ {C}Coder  : {Y}SHiVAM
+{R}╭━━━┳╮╱╭┳━━┳╮╱╱╭╮╱╱╱╱╭━━━┳━━╮╭╮╱╭┳━━╮
+{R}┃╭━╮┃┃╱┃┣┫┣┫╰╮╭╯┃╱╱╱╱┃╭━╮┃╭╮┃┃┃╱┃┣┫┣╯
+{W}┃╰━━┫╰━╯┃┃┃╰╮┃┃╭╯╱╭╮╱┃┃╱┃┃╰╯╰┫╰━╯┃┃┃
+{W}╰━━╮┃╭━╮┃┃┃╱┃╰╯┃╱╭╯╰╮┃╰━╯┃╭━╮┃╭━╮┃┃┃
+{G}┃╰━╯┃┃╱┃┣┫┣╮╰╮╭╯╱╰╮╭╯┃╭━╮┃╰━╯┃┃╱┃┣┫┣╮
+{G}╰━━━┻╯╱╰┻━━╯╱╰╯╱╱╱╰╯╱╰╯╱╰┻━━━┻╯╱╰┻━━╯          
+╱╱╱╱╱╱╱╱╱╱┃┃ {C}Author : {Y}RAVAN TEAM  {Y}Abhishek Rajput
+╱╱╱╱╱╱╱╱╱╱╰╯ {C}Coder  : {Y}Shivam Rajput
 {C}             Version : {G}{version}
  """
 
@@ -304,7 +304,7 @@ def sms():
 	print()
 	a = requests.get('https://raw.githubusercontent.com/T-Dynamos/BaapG-Attack/main/.protected.numbers').text
 	if target in a :
-		error(f"{R} You Can't Bomb This Number");print();res()
+		error(f"{R} Tum matherchod ho kya hamara ham par hi try");print();res()
 	else:
 		bomb(100000,target)	
 	print(f"\n{B} Press {G}Ctrl { R}+ {G} C {B} to exit\n")
@@ -390,7 +390,7 @@ def main(a):
     print(printBox(f"⚡ This tool is only for Educational Purposes !",col1=G,col2=Y))
 
     print(f"\n{G}Choose Any Option\n")
-    text = (f"""{G}[{W}${G}]{R} BAAPG ATTACK ☣️ {W}>>>{G}\n[{W}1{G}]{Y} SMS ATTACK {W}>>>\n{G}[{W}2{G}]{Y} CALL ATTACK {W}>>>\n{G}[{W}3{G}]{Y} MAIL BOMBER\n{W}{G}[{W}4{G}]{Y} WHATSAPP BOMBER{W} >>>\n{G}[{W}5{G}]{Y} ABOUT {W}>>>\n{G}[{W}6{G}]{Y} EXIT {W}>>>\n{G}[{W}>{G}]{Y} UPDATE {W}>>>\n""")
+    text = (f"""{G}[{W}${G}]{R} POWER OF ABHISHEK+SHIVAM ATTACK ☣️ {W}>>>{G}\n[{W}1{G}]{Y} SMS ATTACK {W}>>>\n{G}[{W}2{G}]{Y} CALL ATTACK {W}>>>\n{G}[{W}3{G}]{Y} MAIL BOMBER\n{W}{G}[{W}4{G}]{Y} WHATSAPP BOMBER{W} >>>\n{G}[{W}5{G}]{Y} ABOUT {W}>>>\n{G}[{W}6{G}]{Y} EXIT {W}>>>\n{G}[{W}>{G}]{Y} UPDATE {W}>>>\n""")
     print(text)
     a = input(f"{R} >>> {G}")
     if a == '$':
@@ -438,7 +438,7 @@ def res():
 		main()
 	else:
 		print()
-		aPrint(f"Follow on Ig : {W}@krish_na_2568",time_test=0.15)
+		aPrint(f"Shivam+Abhishek ko papa bolo nhi to tumhari gand faad di jayegi",time_test=0.20)
 		exit()
 
 
