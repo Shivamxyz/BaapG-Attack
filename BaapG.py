@@ -216,8 +216,8 @@ logo = f"""{Style.BRIGHT+text}
 {W}┃╭━╮┃╭╮┃╭╮┃╭╮┃┃╭━╮ ┃╰━╯┃┃┃╱┃┃┃╭╮┃╭━┫╰╯╯
 {G}┃╰━╯┃╭╮┃╭╮┃╰╯┃╰┻━┃ ┃╭━╮┃┃╰╮┃╰┫╭╮┃╰━┫╭╮╮
 {G}╰━━━┻╯╰┻╯╰┫╭━┻━━━╯ ╰╯╱╰╯╰━╯╰━┻╯╰┻━━┻╯╰╯
-╱╱╱╱╱╱╱╱╱╱┃┃ {C}Author : {Y}BaapG Krishna {Y}Rajput
-╱╱╱╱╱╱╱╱╱╱╰╯ {C}Coder  : {Y}Ansh Dadwal
+╱╱╱╱╱╱╱╱╱╱┃┃ {C}Author : {Y}BaapG Krishna {Y}RajputBhai
+╱╱╱╱╱╱╱╱╱╱╰╯ {C}Coder  : {Y}SHiVAM
 {C}             Version : {G}{version}
  """
 
